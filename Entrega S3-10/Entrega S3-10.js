@@ -12,9 +12,6 @@
 
 function positions (firstPlace, secondPlace, lastPlace) {
     let arr = [firstPlace, secondPlace, lastPlace]
-      console.log("1ª - Colocado " + arr[0])
-      console.log("2ª - Colocado " + arr[1])
-      console.log("3ª - Colocado " + arr[2])
     if (arr[2] === "Daniel") {
         console.log("1ª - Colocado " + arr[0])
       	console.log("2ª - Colocado " + arr[1])
@@ -29,15 +26,12 @@ function positions (firstPlace, secondPlace, lastPlace) {
       	console.log("3ª - Colocado " + arr[2])
     }
     }
-    positions("Daniel", "Rafael", "Manuel")
+    positions("Daniel", "Rafael", "Manuel")  // valor a ser alterado
 
     //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
     function positions (firstPlace, secondPlace, lastPlace) {
         let arr = [firstPlace, secondPlace, lastPlace]
-          console.log("1ª - Colocado " + arr[0])
-          console.log("2ª - Colocado " + arr[1])
-          console.log("3ª - Colocado " + arr[2])
         if (arr[2] === "Daniel") {
             return("1ª - Colocado " + arr[0] + " 2ª - Colocado " + arr[1] + " 3ª - Colocado " + arr[2])
         }else if(arr[1] === "Daniel") {
@@ -46,4 +40,4 @@ function positions (firstPlace, secondPlace, lastPlace) {
             return("1ª - Colocado " + arr[0] + " 2ª - Colocado " + arr[1] + " 3ª - Colocado " + arr[2])
         }
         }
-        positions("Daniel", "Rafael", "Manuel")
+        positions("Daniel", "Rafael", "Manuel") // valor a ser alterado
