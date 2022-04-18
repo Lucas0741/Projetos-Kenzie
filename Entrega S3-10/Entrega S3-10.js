@@ -14,11 +14,11 @@ function positions (firstPlace, secondPlace, lastPlace) {
     let arr = [firstPlace, secondPlace, lastPlace]
     if (arr[2] === "Daniel") {
         console.log("1ª - Colocado " + arr[0])
-      	console.log("2ª - Colocado " + arr[1])
-      	console.log("3ª - Colocado " + arr[2])
+      	console.log("2ª - Colocado " + arr[2])
+      	console.log("3ª - Colocado " + arr[1])
     }else if(arr[1] === "Daniel") {
-        console.log("1ª - Colocado " + arr[0])
-      	console.log("2ª - Colocado " + arr[1])
+        console.log("1ª - Colocado " + arr[1])
+      	console.log("2ª - Colocado " + arr[0])
       	console.log("3ª - Colocado " + arr[2])
     }else {
         console.log("1ª - Colocado " + arr[0])
@@ -33,9 +33,9 @@ function positions (firstPlace, secondPlace, lastPlace) {
     function positions (firstPlace, secondPlace, lastPlace) {
         let arr = [firstPlace, secondPlace, lastPlace]
         if (arr[2] === "Daniel") {
-            return("1ª - Colocado " + arr[0] + " 2ª - Colocado " + arr[1] + " 3ª - Colocado " + arr[2])
+            return("1ª - Colocado " + arr[0] + " 2ª - Colocado " + arr[2] + " 3ª - Colocado " + arr[1])
         }else if(arr[1] === "Daniel") {
-            return("1ª - Colocado " + arr[0] + " 2ª - Colocado " + arr[1] + " 3ª - Colocado " + arr[2])
+            return("1ª - Colocado " + arr[1] + " 2ª - Colocado " + arr[0] + " 3ª - Colocado " + arr[2])
         }else {
             return("1ª - Colocado " + arr[0] + " 2ª - Colocado " + arr[1] + " 3ª - Colocado " + arr[2])
         }
