@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega S1-22</title>
+</head>
+<style>
+    body{
+    background-color: darkgrey;
+        background-image: url(https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif);
+    }
+    * {color: rgb(27, 136, 0);}
+</style>
+<body>
+    <h2>Dados para login:</h2>
+    <form>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" placeholder="Seu E-mail:" required>
+        <label for="pass">Senha:</label>
+        <input type="password" id="pass" placeholder="Sua Senha" required>   
+    <hr>
+    <h2>Dados pessoais:</h2>
+        <label for="name">Seu Nome:</label>
+        <input type="text" id="name" placeholder="Seu Nome:" required>
+        <label for="lastname">Sobrenome:</label>
+        <input type="text" id="lastname" placeholder="Seu Sobrenome" required>
+        <fieldset>
+            <legend>Escolha seu Gênero:</legend>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Masculino" name="nome">
+            <label for="Feminino">Feminino</label>
+            <input type="radio" id="Feminino" name="nome">
+          </fieldset>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" placeholder="000.000.000-00" required>
+        <label for="cell">Tel:</label>
+        <input type="tel" id="cell" placeholder="&lpar;00&rpar; 12345-6789" required>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data" placeholder="Seu E-mail:" required>
+    <hr>
+    <h2>Endereço:</h2>
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" placeholder="12345-000" required>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" placeholder="Nome da sua Rua" required>
+        <label for="numero">N°:</label>
+        <input type="number" id="numero" placeholder="0" required>
+        <label for="bairro">Seu Bairro:</label>
+        <input type="text" id="bairro" placeholder="Bairro" required>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" placeholder="Sua Cidade" required>
+        <label for="selecao-de-estados">Estado:</label>
+      <select name="estados" id="selecao-de-estados">
+          <option value="">--Escolha uma Opção--</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+      </select>
+    </form>
+    <hr>
+        <label for="enviar"></label>
+        <input type="submit" id="enviar"required>
+</body>
+</html>
